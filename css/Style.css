@@ -35,3 +35,20 @@ body {
   padding: 16px;
   margin-bottom: 30px;
 }
+#grad1 {
+    height: 2125px;
+  background-image: linear-gradient(#37A8AD, #E4F2F4);
+}
+
+.buttonlogind{
+  background-color: white;
+  border: none;
+  color: #022E42;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
