@@ -12,31 +12,14 @@ body {margin:0;}
   text-align: center;
   padding: 10px 0px;
 }
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
 
-.navbar a:hover {
-  background: #f1f1f1;
-  color: black;
-}
-
-.navbar a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.main { 
-  padding: 16px;
-  margin-bottom: 30px;
-}
+/*Gradient background*/
 #grad1 {
     position: relative;
   height: 2125px;
   background-image: linear-gradient(#37A8AD, #E4F2F4);
 }
-
+/*button style*/
 .buttonlogind{
   background-color: white;
   border: none;
