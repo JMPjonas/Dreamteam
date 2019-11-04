@@ -35,3 +35,17 @@ body {
   padding: 16px;
   margin-bottom: 30px;
 }
+
+/* Login side */
+
+.btnlogin2{
+  border-radius: 25px;
+  background-color: #37A8AD; 
+  padding: 10px 40px;
+  font-size: 10px;
+    font-family: montserrat; 
+    color: white;
+  cursor: pointer;
+}
+
+
