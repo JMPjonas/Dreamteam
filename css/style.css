@@ -18,8 +18,26 @@ body {margin:0;
   float: left;
   width: 25%;
   text-align: center;
-  padding: 10px 0px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.main { 
+  padding: 16px;
+  margin-bottom: 30px;
+}
+
 
 /*button style*/
 .buttonlogind{
@@ -33,5 +51,11 @@ body {margin:0;
   font-size: 50px;
   margin: 4px 2px;
   cursor: pointer;
+  position: relative;
+}
+
+
+.btnlogin2{
+    
 }
 
