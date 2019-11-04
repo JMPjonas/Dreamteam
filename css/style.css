@@ -43,3 +43,17 @@ body {margin:0;
 }
 
 
+.grid-container {
+  
+  display: grid;
+  grid-row-gap: 20px;
+  grid-template-columns: auto;
+  padding: 15px;
+}
+
+.grid-item {
+  background-color:crimson;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
