@@ -36,8 +36,10 @@ body {
   margin-bottom: 30px;
 }
 #grad1 {
-    height: 2125px;
+    position: relative;
+  height: 2125px;
   background-image: linear-gradient(#37A8AD, #E4F2F4);
+    
 }
 
 .buttonlogind{
