@@ -6,7 +6,9 @@ body {margin:0;
       height: 812px;
       background-image: linear-gradient(#37A8AD, #E4F2F4);
      }
-
+.active {
+  animation: ease: 0.3s;
+}
 .grid-container1 {
   margin: 0;
   width: 100%;
@@ -43,20 +45,4 @@ body {margin:0;
 
 .btnlogin2{
     
-}
-
-
-.grid-container {
-  
-  display: grid;
-  grid-row-gap: 20px;
-  grid-template-columns: auto;
-  padding: 15px;
-}
-
-.grid-item {
-  background-color:crimson;
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
 }
