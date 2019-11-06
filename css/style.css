@@ -19,22 +19,63 @@ body {margin:0;
   padding: 14px 0px;
 }
 
+/*Nicolines work*/
 
+            /*GRID*/
+
+.forsidegrid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 2% 2% 2% 2% 5% 70% 10% 10%; 
+    grid-gap: 1em;
+  
+ 
+}   
+
+.forsidelogo{
+    grid-column-start: 2;
+    grid-row-start:4;
+    bottom: 
+   
+    
+}
 
 /*button style*/
-.buttonlogind{
+.logindforside{
+grid-column-start: 2;
+grid-row-start: 7;
+}
+
+.btnlogindforside{
+    border: none;
   background-color: white;
-  border-color: aqua;
-  border-radius: 90px;
+  border-radius: 80px;
   color: #022E42;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 50px;
-  margin: 4px 2px;
-  cursor: pointer;
-  position: relative;
+ padding:  1px 125px;
+  font-size: 20px;
+  font-family: 'montserrat';
+    font-weight: 500;
+
+
+}
+
+.opretbrugerforside{
+    grid-column-start: 2;
+    grid-row-start: 8;
+
+  
+}
+
+.btnopretbrugerforside{
+  background-color: white;
+  border-radius: 80px;
+  color: #022E42;
+ padding: 1px 125px;
+  font-size: 20px;
+    font-family: 'montserrat';
+    font-weight: 500;
+    
+ 
 }
 
 
@@ -42,4 +83,6 @@ body {margin:0;
     
 }
 
+}
+/* Nicolines work slut*/
 
