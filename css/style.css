@@ -25,6 +25,106 @@
 
 
 /*FORSIDE*/
+.logindforside{
+ grid-column-start: 2;
+ grid-row-start: 7;
+ }
+
+.btnlogindforside{
+ border: none;
+ background-color: #ffff;
+ border-radius: 80px;
+ color: #022e42;
+ padding:  1px 125px;
+ font-size: 20px;
+ font-family: 'montserrat';
+ font-weight: 500;
+ }
+
+.opretbrugerforside{
+ grid-column-start: 2;
+ grid-row-start: 8;
+}
+
+.btnopretbrugerforside{
+ background-color: #ffff;
+ border-radius: 80px;
+ border: none;
+ color: #022E42;
+ padding: 1px 125px;
+ font-size: 20px;
+ font-family: 'montserrat';
+ font-weight: 500;
+ }
+
+/*NØGLER*/
+.keygrid{
+    display: grid;
+    grid-template-columns: 3% 78%;
+    grid-template-rows: 5% 5% 10% 20% 20 20%%;
+}
+    
+.dinenøgler{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    font-weight: 600;
+	font-family: 'Montserrat';
+    font-size: 28px;
+    color: #ffff;
+    margin-top: 8%
+}
+
+.add{  
+grid-column-start: 3;
+    grid-row-start:3;
+     border-radius: 20px;
+    padding: 10px; 
+    margin-top: 22%
+}
+    
+.fitnessworld{
+    grid-column-start:1;
+    grid-row-start: 4;
+    border-radius: 20px;
+    padding: 10px; 
+    margin-left: -80%;
+}
+
+.ucl{
+    grid-column-start: 1;
+    grid-row-start: 5;
+     border-radius: 20px;
+    padding: 10px; 
+}
+
+.rejsekort{
+    grid-column-start: 1;
+    grid-row-start: 6;
+     border-radius: 20px;
+    padding: 10px; 
+}
+.keybody{
+    overflow: scroll;
+}
+
+/*Keyinfo*/
+
+.keyinfogrid{
+    display: grid;
+    grid-template-columns: 3% 78%;
+    grid-template-rows: 5% 10% 28% 20% 20%;
+    
+}
+
+.fitnessinfo{
+    grid-column-start: 2;
+    grid-row-start: 3;   
+}
+
+.keyinfobox{
+    grid-column-start: 2;
+    grid-row-start: 4;   
+}
 .settingsitems{
         display: grid;
         grid-template-columns: 0.5fr 0.2fr 2.5fr 0.5fr 0.5fr 0.5fr;
@@ -165,25 +265,7 @@ input[class="form-input"]{
     border: none;
     transition: 0.2s linear;
     
-    margin-left: 12%;
-}
-
-input[class="form-input1"]{
-    width: 285px; 
-    height: 40px;
-  
-    border-radius: 29px;
-    
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    font-weight: 300; 
-  
-    outline: none;
-    border: none;
-    transition: 0.2s linear;
-    
-    margin-left: 12%;
+    margin-left: 15%;
 }
 
 .forgot-pass{
@@ -193,40 +275,6 @@ input[class="form-input1"]{
   color: #022E42;
     text-decoration: underline; 
     font-family: 'montserrat'; 
-}
-
-.velkommenopret{
-    font-weight: 600; 
-    font-family: 'montserrat';
-    font-weight: 600; 
-    font-size: 27px;
-    color: white;
-    grid-column-start: 2; 
-    grid-row-start: 2;
-    margin-left: 15%;
-    margin-top: 10%;
-}
-
-.oplysningeropret{
-  font-weight: 300; 
-    font-family: 'montserrat';
-    font-size: 13px;
-    font-weight: 300;
-    color: #022E42; 
-    grid-column-start: 2; 
-    grid-row-start: 3;
-    margin-top: -5%; 
-     margin-left: 15%;  
-}
-
-.checkbox{
-    font-family: 'montserrat'; 
-        font-size: 10px;  
-    color: #022E42;
-    margin-left: 12%;
-    
- 
-    
 }
 
 button {
@@ -248,7 +296,7 @@ button {
     font-size: 21px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500; 
-    margin-left: 12%;
+    margin-left: 15%;
 }
 
 button:hover {
@@ -270,106 +318,7 @@ button:hover {
 
 /*    Idas work*/
 
-.logindforside{
- grid-column-start: 2;
- grid-row-start: 7;
- }
 
-.btnlogindforside{
- border: none;
- background-color: #ffff;
- border-radius: 80px;
- color: #022e42;
- padding:  1px 125px;
- font-size: 20px;
- font-family: 'montserrat';
- font-weight: 500;
- }
-
-.opretbrugerforside{
- grid-column-start: 2;
- grid-row-start: 8;
-}
-
-.btnopretbrugerforside{
- background-color: #ffff;
- border-radius: 80px;
- border: none;
- color: #022E42;
- padding: 1px 125px;
- font-size: 20px;
- font-family: 'montserrat';
- font-weight: 500;
- }
-
-/*NØGLER*/
-.keygrid{
-    display: grid;
-    grid-template-columns: 3% 78%;
-    grid-template-rows: 5% 5% 10% 20% 20 20%%;
-}
-    
-.dinenøgler{
-    grid-column-start: 2;
-    grid-row-start: 3;
-    font-weight: 600;
-	font-family: 'Montserrat';
-    font-size: 28px;
-    color: #ffff;
-    margin-top: 8%
-}
-
-.add{  
-grid-column-start: 3;
-    grid-row-start:3;
-     border-radius: 20px;
-    padding: 10px; 
-    margin-top: 22%
-}
-    
-.fitnessworld{
-    grid-column-start:1;
-    grid-row-start: 4;
-    border-radius: 20px;
-    padding: 10px; 
-    margin-left: -80%;
-}
-
-.ucl{
-    grid-column-start: 1;
-    grid-row-start: 5;
-     border-radius: 20px;
-    padding: 10px; 
-}
-
-.rejsekort{
-    grid-column-start: 1;
-    grid-row-start: 6;
-     border-radius: 20px;
-    padding: 10px; 
-}
-.keybody{
-    overflow: scroll;
-}
-
-/*Keyinfo*/
-
-.keyinfogrid{
-    display: grid;
-    grid-template-columns: 3% 78%;
-    grid-template-rows: 5% 10% 28% 20% 20%;
-    
-}
-
-.fitnessinfo{
-    grid-column-start: 2;
-    grid-row-start: 3;   
-}
-
-.keyinfobox{
-    grid-column-start: 2;
-    grid-row-start: 4;   
-}
 /* Nicolines work slut*/
 .settingsgrid{
         display: grid;
