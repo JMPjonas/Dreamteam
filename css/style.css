@@ -132,7 +132,7 @@ grid-column-start: 3;
 }
 
 .noti{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-weight: 500;
     font-size: 85%;
     color: #022e42;
@@ -141,7 +141,7 @@ grid-column-start: 3;
 }
 
 .privat{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-weight: 500;
     font-size: 85%;
     color: #022e42;
@@ -150,7 +150,7 @@ grid-column-start: 3;
 }
 
 .sikker{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-weight: 500;
     font-size: 85%;
     color: #022e42;
@@ -159,7 +159,7 @@ grid-column-start: 3;
 }
 
 .om{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-weight: 500;
     font-size: 85%;
     color: #022e42;
