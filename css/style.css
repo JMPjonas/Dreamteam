@@ -12,6 +12,47 @@ body {
      }
 /*Nicolines work*/
 
+.settingsitems{
+        display: grid;
+        grid-template-columns: 0.3fr 0.45fr 2fr 1fr 1fr 0.8fr;
+        grid-template-rows: 20% 20% 20% 20% 20% 15%;
+}
+
+.noti{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 85%;
+    color: #022e42;
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+.privat{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 85%;
+    color: #022e42;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.sikker{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 85%;
+    color: #022e42;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.om{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 85%;
+    color: #022e42;
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
     /*GRID*/
 .forsidegrid{
     display: grid;
@@ -60,17 +101,34 @@ body {
 /* Nicolines work slut*/
 
 
+
+
+.settingsgrid{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 5% 10% 10% 10% 20% 50% 20%;
+    }
+    
+.box{
+    grid-column-start: 2;
+    grid-row-start: 6;
+}
+
+
+
 .grid-container1 {
+  z-index: 1;
   margin: 0;
   width: 100%;
   /*Det er for at den ikke scroller med resten, men forbliver på sin plads*/
-  position: fixed;
+  position:fixed;
+  
   /* Dette er for at bestemme at den skal ligge i bunden*/
   bottom:0;
   /*Grid opsætnings deffinitation*/
   display: grid;
   /*Denne funktion gør således at grid selv bestemmer str. for at alle er lige store*/
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 25% 25% 25% 25%;
   /*Baggrunds farve på boksene*/
   background-color: #f7f8f9;
   /*Dette giver en kant på boksene, så de ikke ligger helt i bunden*/
@@ -143,3 +201,5 @@ body {
             transform: scale(0.6);
   }
 
+    
+        
