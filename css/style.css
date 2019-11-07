@@ -1,5 +1,5 @@
 /* Bottom Navbar og styling*/
-body {
+.ikkerul {
       /* Til at fjerne skærmkanter*/
       margin:0;
       /* fjerner visuel scroll både ved X & Y-aksen*/
@@ -7,12 +7,23 @@ body {
       overflow-y: hidden;
       position: relative;
       /*Gradient baggrund*/
-      height: 812px;;
+      height: 812px;
       background-image: linear-gradient(#37A8AD, #E4F2F4);
      }
+
+.rul{
+     /* Til at fjerne skærmkanter*/
+      margin:0;
+      /* fjerner visuel scroll både ved X-aksen*/
+      overflow-x: hidden;
+      /*Gradient baggrund*/
+      height: 1000px;
+      background-image: linear-gradient(#37A8AD, #E4F2F4); 
+    
+}
 /*Nicolines work*/
 
-    /*GRID*/
+/*FORSIDE*/
 .forsidegrid{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -57,6 +68,75 @@ body {
  font-family: 'montserrat';
  font-weight: 500;
  }
+
+/*NØGLER*/
+.keygrid{
+    display: grid;
+    grid-template-columns: 3% 78%;
+    grid-template-rows: 5% 5% 10% 20% 20 20%%;
+}
+    
+.dinenøgler{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    font-weight: 600;
+	font-family: 'Montserrat';
+    font-size: 28px;
+    color: #ffff;
+    margin-top: 8%
+}
+
+.add{  
+grid-column-start: 3;
+    grid-row-start:3;
+     border-radius: 20px;
+    padding: 10px; 
+    margin-top: 22%
+}
+    
+.fitnessworld{
+    grid-column-start:1;
+    grid-row-start: 4;
+    border-radius: 20px;
+    padding: 10px; 
+    margin-left: -80%;
+}
+
+.ucl{
+    grid-column-start: 1;
+    grid-row-start: 5;
+     border-radius: 20px;
+    padding: 10px; 
+}
+
+.rejsekort{
+    grid-column-start: 1;
+    grid-row-start: 6;
+     border-radius: 20px;
+    padding: 10px; 
+}
+.keybody{
+    overflow: scroll;
+}
+
+/*Keyinfo*/
+
+.keyinfogrid{
+    display: grid;
+    grid-template-columns: 3% 78%;
+    grid-template-rows: 5% 10% 28% 20% 20%;
+    
+}
+
+.fitnessinfo{
+    grid-column-start: 2;
+    grid-row-start: 3;   
+}
+
+.keyinfobox{
+    grid-column-start: 2;
+    grid-row-start: 4;   
+}
 /* Nicolines work slut*/
 
 
@@ -64,7 +144,7 @@ body {
   margin: 0;
   width: 100%;
   /*Det er for at den ikke scroller med resten, men forbliver på sin plads*/
-  position: fixed;
+  position:fixed;
   /* Dette er for at bestemme at den skal ligge i bunden*/
   bottom:0;
   /*Grid opsætnings deffinitation*/
