@@ -152,7 +152,25 @@ input[class="form-input"]{
     border: none;
     transition: 0.2s linear;
     
-    margin-left: 15%;
+    margin-left: 12%;
+}
+
+input[class="form-input1"]{
+    width: 285px; 
+    height: 40px;
+  
+    border-radius: 29px;
+    
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 300; 
+  
+    outline: none;
+    border: none;
+    transition: 0.2s linear;
+    
+    margin-left: 12%;
 }
 
 .forgot-pass{
@@ -162,6 +180,40 @@ input[class="form-input"]{
   color: #022E42;
     text-decoration: underline; 
     font-family: 'montserrat'; 
+}
+
+.velkommenopret{
+    font-weight: 600; 
+    font-family: 'montserrat';
+    font-weight: 600; 
+    font-size: 27px;
+    color: white;
+    grid-column-start: 2; 
+    grid-row-start: 2;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.oplysningeropret{
+  font-weight: 300; 
+    font-family: 'montserrat';
+    font-size: 13px;
+    font-weight: 300;
+    color: #022E42; 
+    grid-column-start: 2; 
+    grid-row-start: 3;
+    margin-top: -5%; 
+     margin-left: 15%;  
+}
+
+.checkbox{
+    font-family: 'montserrat'; 
+        font-size: 10px;  
+    color: #022E42;
+    margin-left: 12%;
+    
+ 
+    
 }
 
 button {
@@ -183,7 +235,7 @@ button {
     font-size: 21px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500; 
-    margin-left: 15%;
+    margin-left: 12%;
 }
 
 button:hover {
