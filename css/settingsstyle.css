@@ -1,5 +1,6 @@
 /* Bottom Navbar og styling*/
-.ikkerul {
+.ikkerul{
+      z-index: 1;
       /* Til at fjerne skærmkanter*/
       margin:0;
       /* fjerner visuel scroll både ved X & Y-aksen*/
@@ -10,13 +11,103 @@
       height: 812px;
       background-image: linear-gradient(#37A8AD, #E4F2F4);
      }
+
+ 
+.settingsgrid{
+        z-index: 4;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 5% 10% 10% 10% 20% 50% 20%;
+    }
+    
+.box{
+    z-index: 5;
+    grid-column-start: 2;
+    grid-row-start: 6;
+}
+
+.settingsitems{
+        z-index: 6;
+        display: grid;
+        grid-template-columns: 0.5fr 0.2fr 2.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 20% 20% 20% 20% 20% 15%;
+}
+
+
+.noti{
+    z-index: 7;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 85%;
+    color: #022e42;
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+.notiknap{
+    margin-top: 15px;
+    z-index: 7;
+    grid-column-start: 5;
+    grid-row-start: 1;
+}
+
+.privat{
+    z-index: 7;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 85%;
+    color: #022e42;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.privatknap{
+    margin-top: 15px;
+    z-index: 7;
+    grid-column-start: 5;
+    grid-row-start: 2;
+}
+
+.sikker{
+    z-index: 7;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 85%;
+    color: #022e42;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.sikkerknap{
+    margin-top: 15px;
+    z-index: 7;
+    grid-column-start: 5;
+    grid-row-start: 3;
+}
+
+.om{
+    z-index: 7;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 85%;
+    color: #022e42;
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+
+.omknap{
+    margin-top: 15px;
+    z-index: 7;
+    grid-column-start: 5;
+    grid-row-start: 4;
+}
+
 .grid-container1 {
-  z-index: 1;
+  z-index: 2;
   margin: 0;
   width: 100%;
   /*Det er for at den ikke scroller med resten, men forbliver på sin plads*/
   position:fixed;
-    
   /* Dette er for at bestemme at den skal ligge i bunden*/
   bottom:0;
   /*Grid opsætnings deffinitation*/
@@ -30,6 +121,7 @@
 }
 
 .grid-item1/*deffination af alle grid bokse*/ {
+   z-index: 3;
   /*Dette er for at få dem længere væk fra hindanden*/
   padding: 5px;
   /* Dette er for at ikonerne er i midten af boksene*/
@@ -93,57 +185,4 @@
   100% {
     -webkit-transform: scale(0.6);
             transform: scale(0.6);
-  }  
-    
-.settingsgrid{
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 5% 10% 10% 10% 20% 50% 20%;
-    }
-    
-.box{
-    grid-column-start: 2;
-    grid-row-start: 6;
-}
-
-.settingsitems{
-        display: grid;
-        grid-template-columns: 0.5fr 0.2fr 2.5fr 0.5fr 0.5fr 0.5fr;
-        grid-template-rows: 20% 20% 20% 20% 20% 15%;
-}
-
-.noti{
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 85%;
-    color: #022e42;
-    grid-column-start: 3;
-    grid-row-start: 1;
-}
-
-.privat{
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 85%;
-    color: #022e42;
-    grid-column-start: 3;
-    grid-row-start: 2;
-}
-
-.sikker{
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 85%;
-    color: #022e42;
-    grid-column-start: 3;
-    grid-row-start: 3;
-}
-
-.om{
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 85%;
-    color: #022e42;
-    grid-column-start: 3;
-    grid-row-start: 4;
-}
+  }    
