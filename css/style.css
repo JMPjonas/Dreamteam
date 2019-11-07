@@ -1,29 +1,73 @@
-
-
 /* Bottom Navbar og styling*/
-body {margin:0;
+body {
+      /* Til at fjerne skærmkanter*/
+      margin:0;
+      /* fjerner visuel scroll både ved X & Y-aksen*/
+      overflow-x: hidden;
+      overflow-y: hidden;
       position: relative;
-      height: 812px;
-      background-image: linear-gradient(#37A8AD, #E4F2F4);}
+      /*Gradient baggrund*/
+      height: 812px;;
+      background-image: linear-gradient(#37A8AD, #E4F2F4);
+     }
+/*Nicolines work*/
 
-
-.icon-bar {
-  width: 100%;
-  background-color: #f7f8f9;
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-}
-.icon-bar a {
-  float: left;
-  width: 25%;
-  text-align: center;
-  padding: 14px 0px;
+.settingsitems{
+        display: grid;
+        grid-template-columns: 0.3fr 0.45fr 2fr 1fr 1fr 0.8fr;
+        grid-template-rows: 20% 20% 20% 20% 20% 15%;
 }
 
+.noti{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 85%;
+    color: #022e42;
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
 
+.privat{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 85%;
+    color: #022e42;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.sikker{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 85%;
+    color: #022e42;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.om{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 85%;
+    color: #022e42;
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+    /*GRID*/
+.forsidegrid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 2% 2% 2% 2% 5% 70% 10% 10%; 
+    grid-gap: 1em;
+}   
+
+.forsidelogo{
+ grid-column-start: 2;
+ grid-row-start:4; 
+ }
 
 /*button style*/
+
 .buttonlogind{
   background-color: white;
   border: none;
@@ -108,7 +152,142 @@ input[class="form-input"]{
     transition: 0.2s linear;
     
     margin-left: 15%;
+
+.logindforside{
+ grid-column-start: 2;
+ grid-row-start: 7;
+ }
+
+.btnlogindforside{
+ border: none;
+ background-color: #ffff;
+ border-radius: 80px;
+ color: #022e42;
+ padding:  1px 125px;
+ font-size: 20px;
+ font-family: 'montserrat';
+ font-weight: 500;
+ }
+
+.opretbrugerforside{
+ grid-column-start: 2;
+ grid-row-start: 8;
 }
+
+.btnopretbrugerforside{
+ background-color: #ffff;
+ border-radius: 80px;
+ border: none;
+ color: #022E42;
+ padding: 1px 125px;
+ font-size: 20px;
+ font-family: 'montserrat';
+ font-weight: 500;
+ }
+/* Nicolines work slut*/
+
+
+
+
+.settingsgrid{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 5% 10% 10% 10% 20% 50% 20%;
+    }
+    
+.box{
+    grid-column-start: 2;
+    grid-row-start: 6;
+}
+
+
+
+.grid-container1 {
+  z-index: 1;
+  margin: 0;
+  width: 100%;
+  /*Det er for at den ikke scroller med resten, men forbliver på sin plads*/
+  position:fixed;
+  
+  /* Dette er for at bestemme at den skal ligge i bunden*/
+  bottom:0;
+  /*Grid opsætnings deffinitation*/
+  display: grid;
+  /*Denne funktion gør således at grid selv bestemmer str. for at alle er lige store*/
+  grid-template-columns: 25% 25% 25% 25%;
+  /*Baggrunds farve på boksene*/
+  background-color: #f7f8f9;
+  /*Dette giver en kant på boksene, så de ikke ligger helt i bunden*/
+  padding: 10px;
+}
+
+.grid-item1/*deffination af alle grid bokse*/ {
+  /*Dette er for at få dem længere væk fra hindanden*/
+  padding: 5px;
+  /* Dette er for at ikonerne er i midten af boksene*/
+  align-content: center;
+}
+
+/* Animation 1 upsizing af icon*/
+.scale-up-bottom {
+    /* Starts funktion på upscaling af ikonet*/
+	-webkit-animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes scale-up-bottom {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
+
+}
+@keyframes scale-up-bottom {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
+}
+
+/*animation 2 downsizing af icons */
+.scale-down-center {
+	-webkit-animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; }
+@-webkit-keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+  }
+
 
 .forgot-pass{
   font-size: 14px;
@@ -161,4 +340,5 @@ button:hover {
 }
 
                 /* IDAS WORK SLUT */
+
 
