@@ -14,7 +14,7 @@ body {
 
 .settingsitems{
         display: grid;
-        grid-template-columns: 0.3fr 0.45fr 2fr 1fr 1fr 0.8fr;
+        grid-template-columns: 0.5fr 0.2fr 2.5fr 0.5fr 0.5fr 0.5fr;
         grid-template-rows: 20% 20% 20% 20% 20% 15%;
 }
 
@@ -67,6 +67,7 @@ body {
  }
 
 /*button style*/
+
 
 .buttonlogind{
   background-color: white;
@@ -153,6 +154,7 @@ input[class="form-input"]{
     
     margin-left: 15%;
 }
+
 
 .logindforside{
  grid-column-start: 2;
@@ -248,7 +250,6 @@ input[class="form-input"]{
     -webkit-transform-origin: 50% 100%;
             transform-origin: 50% 100%;
   }
-
 }
 @keyframes scale-up-bottom {
   0% {
@@ -289,57 +290,5 @@ input[class="form-input"]{
             transform: scale(0.6);
   }
 
-
-.forgot-pass{
-  font-size: 14px;
-  margin-left: 30%;
-    margin-top: 2%;
-  color: #022E42;
-    text-decoration: underline; 
-    font-family: 'montserrat'; 
     
-}
-
-
-button {
-    color: White;
-  
-    width: 275px;
-    height: 60px;
-  
-    background: #37A8AD;
-    border-radius: 29px;
-    
-    outline: none;
-    border: none;
-  
-    cursor: pointer;
-    text-align: center;
-    transition: all 0.2s linear;
-    
-    font-size: 21px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500; 
-    margin-left: 15%;
-}
-
-button:hover {
-    animation: ani9 0.4s ease-in-out infinite alternate;
-}
-@keyframes ani9 {
-    0% {
-        transform: translateY(3px);
-    }
-
-
-/*Grid*/ 
-.logingrid{
-    display: grid; 
-    grid-template-columns: 10% 85% 5%; 
-    grid-template-rows: 30% 10%; 
-    grid-row-gap: 1em; 
-}
-
-                /* IDAS WORK SLUT */
-
-
+        
