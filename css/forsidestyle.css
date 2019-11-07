@@ -1,0 +1,82 @@
+/* Bottom Navbar og styling*/
+.ikkerul {
+      /* Til at fjerne skærmkanter*/
+      margin:0;
+      /* fjerner visuel scroll både ved X & Y-aksen*/
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      /*Gradient baggrund*/
+      height: 812px;
+      background-image: linear-gradient(#37A8AD, #E4F2F4);
+     }
+
+/*Nicolines work*/
+
+
+/*FORSIDE*/
+.logindforside{
+ grid-column-start: 2;
+ grid-row-start: 7;
+ }
+
+.btnlogindforside{
+ border: none;
+ background-color: #ffff;
+ border-radius: 80px;
+ color: #022e42;
+ padding:  1px 125px;
+ font-size: 20px;
+ font-family: 'montserrat';
+ font-weight: 500;
+ }
+
+.opretbrugerforside{
+ grid-column-start: 2;
+ grid-row-start: 8;
+}
+
+.btnopretbrugerforside{
+ background-color: #ffff;
+ border-radius: 80px;
+ border: none;
+ color: #022E42;
+ padding: 1px 125px;
+ font-size: 20px;
+ font-family: 'montserrat';
+ font-weight: 500;
+ }
+
+
+
+
+
+    /*GRID*/
+.forsidegrid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 2% 2% 2% 2% 5% 70% 10% 10%; 
+    grid-gap: 1em;
+}   
+
+.forsidelogo{
+ grid-column-start: 2;
+ grid-row-start:4; 
+ }
+
+/*button style*/
+
+
+.buttonlogind{
+  background-color: white;
+  border: none;
+  color: #022E42;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: relative;
+}
