@@ -152,6 +152,7 @@ input[class="form-input"]{
     transition: 0.2s linear;
     
     margin-left: 15%;
+}
 
 .logindforside{
  grid-column-start: 2;
