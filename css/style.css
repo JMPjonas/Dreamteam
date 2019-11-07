@@ -23,8 +23,15 @@
 }
 /*Nicolines work*/
 
-
 /*FORSIDE*/
+
+.logingrid{
+    display: grid; 
+    grid-template-columns: 10% 85% 5%; 
+    grid-template-rows: 30% 10%; 
+    grid-row-gap: 1em; 
+}
+
 .logindforside{
  grid-column-start: 2;
  grid-row-start: 7;
@@ -132,7 +139,7 @@ grid-column-start: 3;
 }
 
 .noti{
-    font-family: 'Montserrat';
+    font-family: Montserrat;
     font-weight: 500;
     font-size: 85%;
     color: #022e42;
@@ -141,7 +148,7 @@ grid-column-start: 3;
 }
 
 .privat{
-    font-family: 'Montserrat';
+    font-family: Montserrat;
     font-weight: 500;
     font-size: 85%;
     color: #022e42;
@@ -150,7 +157,7 @@ grid-column-start: 3;
 }
 
 .sikker{
-    font-family: 'Montserrat';
+    font-family: Montserrat;
     font-weight: 500;
     font-size: 85%;
     color: #022e42;
@@ -159,7 +166,7 @@ grid-column-start: 3;
 }
 
 .om{
-    font-family: 'Montserrat';
+    font-family: Montserrat;
     font-weight: 500;
     font-size: 85%;
     color: #022e42;
@@ -306,15 +313,6 @@ button:hover {
     0% {
         transform: translateY(3px);
     }
-
-
-/*Grid*/ 
-.logingrid{
-    display: grid; 
-    grid-template-columns: 10% 85% 5%; 
-    grid-template-rows: 30% 10%; 
-    grid-row-gap: 1em; 
-}
 
 /*    Idas work*/
 

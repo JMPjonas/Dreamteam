@@ -62,33 +62,6 @@ grid-column-start: 3;
     overflow: scroll;
 }
 
-.rediger{
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 85%;
-    color: #022e42;
-    grid-column-start: 3;
-    grid-row-start: 1;
-}
-
-.del{
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 85%;
-    color: #022e42;
-    grid-column-start: 3;
-    grid-row-start: 2;
-}
-
-.slet{
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 85%;
-    color: #022e42;
-    grid-column-start: 3;
-    grid-row-start: 3;
-}
-
 .grid-container1 {
   z-index: 1;
   margin: 0;
