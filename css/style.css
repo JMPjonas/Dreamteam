@@ -186,6 +186,15 @@ grid-column-start: 3;
  grid-row-start:4; 
  }
 
+
+/*Grid*/ 
+.logingrid{
+    display: grid; 
+    grid-template-columns: 10% 85% 5%; 
+    grid-template-rows: 30% 10%; 
+    grid-row-gap: 1em; 
+}
+
 /*button style*/
 
 

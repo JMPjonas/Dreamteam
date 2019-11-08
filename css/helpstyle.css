@@ -85,22 +85,6 @@
     grid-row-start: 3;
 }
 
-.om{
-    z-index: 7;
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 85%;
-    color: #022e42;
-    grid-column-start: 3;
-    grid-row-start: 4;
-}
-
-.omknap{
-    margin-top: 15px;
-    z-index: 7;
-    grid-column-start: 5;
-    grid-row-start: 4;
-}
 
 .grid-container1 {
   z-index: 2;
