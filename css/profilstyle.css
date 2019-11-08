@@ -1,4 +1,6 @@
-.ikkerul {
+/* Bottom Navbar og styling*/
+.ikkerul{
+      z-index: 1;
       /* Til at fjerne skærmkanter*/
       margin:0;
       /* fjerner visuel scroll både ved X & Y-aksen*/
@@ -8,15 +10,139 @@
       /*Gradient baggrund*/
       height: 812px;
       background-image: linear-gradient(#37A8AD, #E4F2F4);
-      }
+    
+     }
+
+.profilitems{
+        z-index: 6;
+        display: grid;
+        grid-template-columns: 0.5fr 0.2fr 2.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 50% 50% 50% 50% 50% 25% 25% 25% 25% 25%;
+}
+
+.pic{
+    margin-left: 92px;
+    z-index: 8;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.picture{
+        z-index: 8;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 60% 50%;
+}
+ 
+
+
+
+
+
+.profilgrid{
+        z-index: 4;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 20% 10% 10% 10% 5% 5% 20% 20%;
+    }
+
+
+.box{
+    z-index: 5;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.navn{
+    margin-left: 90px;
+    margin-top: 20px;
+    z-index: 8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 80%;
+    color: #022e42;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.mail{
+    margin-left: 45px;
+    z-index: 8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 80%;
+    color: #022e42;
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.oply{
+    
+    z-index: 7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 80%;
+    color: #022e42;
+    grid-column-start: 3;
+    grid-row-start: 7;
+}
+
+.oplyknap{
+    margin-top: 15px;
+    z-index: 7;
+    grid-column-start: 5;
+    grid-row-start: 7;
+}
+
+.kode{
+    z-index: 7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 80%;
+    color: #022e42;
+    grid-column-start: 3;
+    grid-row-start: 8;
+}
+
+.kodeknap{
+    margin-top: 15px;
+    z-index: 7;
+    grid-column-start: 5;
+    grid-row-start: 8;
+}
+
+.slet{
+    
+    z-index: 7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 80%;
+    color: #FA7268;
+    grid-column-start: 3;
+    grid-row-start: 9;
+}
+
+.sletknap{
+    margin-top: 15px;
+    z-index: 7;
+    grid-column-start: 5;
+    grid-row-start: 9;
+}
+
+
+
+
+
+
+
+
+
 
 .grid-container1 {
-  z-index: 1;
+  z-index: 2;
   margin: 0;
   width: 100%;
   /*Det er for at den ikke scroller med resten, men forbliver på sin plads*/
   position:fixed;
-    
   /* Dette er for at bestemme at den skal ligge i bunden*/
   bottom:0;
   /*Grid opsætnings deffinitation*/
@@ -30,6 +156,7 @@
 }
 
 .grid-item1/*deffination af alle grid bokse*/ {
+   z-index: 3;
   /*Dette er for at få dem længere væk fra hindanden*/
   padding: 5px;
   /* Dette er for at ikonerne er i midten af boksene*/
@@ -93,4 +220,4 @@
   100% {
     -webkit-transform: scale(0.6);
             transform: scale(0.6);
-  }       
+  }    
