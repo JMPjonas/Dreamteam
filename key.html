@@ -61,19 +61,38 @@
     
 </div>
 
+
 <div class="keygrid">
    <div class="dinenoegler">
       <p>Dine nøgler</p>
      </div>
-
+    
     <div class="add">
-    <img src="img/icons/PLUSNY.png" alt="add">
-    </div>
+         <button class="open-button" onclick="openForm()">
+             <img src="img/icons/PLUSNY.png" alt="add">
+             </button>
+       
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>TILFØJ NØGLE</h1>
+
+    <label for="Navn" class="navn"><b>Navn</b></label>
+    <input type="text" placeholder="Indtast navn på nøgle" name="Navn" required>
+
+    <label for="psw" class="kodeord"><b>Kodeord</b></label>
+    <input type="password" placeholder="Indtast kodeord" name="kodeord" required>
+
+    <button onclick="location.href='key.html'" type="submit" class="btn">Tilføj nøgle</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Luk</button>
+  </form>
+</div>
+        
+     </div>
     
     <div class="fitnessworld">
         <button onclick="location.href='fitnesskeyinfo.html'">
-     <img src="img/Keys/fw-logo.png" alt="fitness">
-    </button>
+            <img src="img/Keys/fw-logo.png" alt="fitness">
+        </button>
     </div>
         
     <div class="ucl">
