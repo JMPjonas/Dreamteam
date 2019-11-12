@@ -11,96 +11,127 @@
       height: 812px;
       background-image: linear-gradient(#37A8AD, #E4F2F4);
      }
-
+.back {
+    z-index: 5;
+    grid-column-start: 1;
+    grid-row-start: 2;
+  padding: 8px 16px;
+    font-size: 20px;
+    color: white;    
+}
  
-.settingsgrid{
+.infogrid{
         z-index: 4;
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 0.5fr 1fr 1fr;
         grid-template-rows: 5% 10% 10% 10% 20% 50% 20%;
     }
     
+.fitnessinfo{
+   margin-top: 25%;
+    position: absolute;
+    margin-left: 3%
+}
 .box{
     z-index: 5;
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-row-start: 6;
+    margin-left: 3%;
+    
 }
 
-.settingsitems{
+.infoitems{
         z-index: 6;
         display: grid;
-        grid-template-columns: 0.5fr 0.2fr 2.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-columns: 0.5fr 0.6fr 2.5fr 0.5fr 0.5fr 0.5fr;
         grid-template-rows: 20% 20% 20% 20% 20% 15%;
+    margin-top: -20%
 }
 
-
-.noti{
+.fitnesstext{
     z-index: 7;
-  font-family: 'Montserrat', sans-serif;
-    font-weight:                      500;
-    font-size:                       110%;
-    color:                        #022e42;
+    margin-top: -77%;
+    margin-left: 10%;
+    color: #022e42;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 120%;
     grid-column-start: 3;
     grid-row-start: 1;
 }
 
-.notiknap{
+.fitnesstext2{
+    z-index: 7;
+    margin-top: -40%;
+    margin-left: 15%;
+    color: #022e42;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 55%;
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+.rediger{
+    z-index: 7;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 80%;
+    color: #022e42;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    margin-left: -20%
+}
+
+.redigerknap{
     margin-top: 15px;
     z-index: 7;
+    margin-top: 60%;
     grid-column-start: 5;
     grid-row-start: 1;
 }
 
-.privat{
+.del{
     z-index: 7;
-   font-family: 'Montserrat', sans-serif;
-    font-weight:                      500;
-    font-size:                       110%;
-    color:                        #022e42;
-    grid-column-start: 3;
-    grid-row-start: 2;
-}
-
-.privatknap{
-    margin-top: 15px;
-    z-index: 7;
-    grid-column-start: 5;
-    grid-row-start: 2;
-}
-
-.sikker{
-    z-index: 7;
-  font-family: 'Montserrat', sans-serif;
-    font-weight:                      500;
-    font-size:                       110%;
-    color:                        #022e42;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 80%;
+    color: #022e42;
     grid-column-start: 3;
     grid-row-start: 3;
+    margin-top: -4%;
+    margin-left: -20%
+ 
 }
 
-.sikkerknap{
+.delknap{
     margin-top: 15px;
     z-index: 7;
     grid-column-start: 5;
     grid-row-start: 3;
+    
 }
 
-.om{
+.slet{
     z-index: 7;
-font-family: 'Montserrat', sans-serif;
-    font-weight:                      500;
-    font-size:                       110%;
-    color:                        #022e42;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 80%;
+    color: #022e42;
     grid-column-start: 3;
     grid-row-start: 4;
+    margin-top: 7%;
+    color: #FA7268;
+    margin-left: -20%
 }
 
-.omknap{
+.sletknap{
     margin-top: 15px;
     z-index: 7;
     grid-column-start: 5;
     grid-row-start: 4;
+    margin-top: 80%
 }
+
 
 .grid-container1 {
   z-index: 2;

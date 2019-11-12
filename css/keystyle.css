@@ -41,6 +41,7 @@ grid-column-start: 3;
     border-radius: 20px;
     padding: 10px; 
     margin-left: -60%;
+    border: 50%;
 }
 
 .ucl{
@@ -48,7 +49,8 @@ grid-column-start: 3;
     grid-row-start: 5;
      border-radius: 20px;
     padding: 10px; 
-    margin-left: 20%;
+    margin-left: -50%;
+
 }
 
 .rejsekort{
@@ -56,7 +58,8 @@ grid-column-start: 3;
     grid-row-start: 6;
      border-radius: 20px;
     padding: 10px; 
-    margin-left: 20%
+    margin-left: -50%;
+
 }
 .keybody{
     overflow: scroll;
