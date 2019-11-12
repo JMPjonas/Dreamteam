@@ -36,10 +36,10 @@
 
 .noti{
     z-index: 7;
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 85%;
-    color: #022e42;
+  font-family: 'Montserrat', sans-serif;
+    font-weight:                      500;
+    font-size:                       110%;
+    color:                        #022e42;
     grid-column-start: 3;
     grid-row-start: 1;
 }
@@ -53,10 +53,10 @@
 
 .privat{
     z-index: 7;
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 85%;
-    color: #022e42;
+   font-family: 'Montserrat', sans-serif;
+    font-weight:                      500;
+    font-size:                       110%;
+    color:                        #022e42;
     grid-column-start: 3;
     grid-row-start: 2;
 }
@@ -70,10 +70,10 @@
 
 .sikker{
     z-index: 7;
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 85%;
-    color: #022e42;
+  font-family: 'Montserrat', sans-serif;
+    font-weight:                      500;
+    font-size:                       110%;
+    color:                        #022e42;
     grid-column-start: 3;
     grid-row-start: 3;
 }
@@ -87,10 +87,10 @@
 
 .om{
     z-index: 7;
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 85%;
-    color: #022e42;
+font-family: 'Montserrat', sans-serif;
+    font-weight:                      500;
+    font-size:                       110%;
+    color:                        #022e42;
     grid-column-start: 3;
     grid-row-start: 4;
 }

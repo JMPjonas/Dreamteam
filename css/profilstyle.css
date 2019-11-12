@@ -1,71 +1,187 @@
-.ikkerul {
-      /* Til at fjerne skærmkanter*/
-      margin:0;
-      /* fjerner visuel scroll både ved X & Y-aksen*/
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      /*Gradient baggrund*/
-      height: 812px;
-      background-image: linear-gradient(#37A8AD, #E4F2F4);
-      }
+/* Bottom Navbar og styling*/
+.ikkerul{
+    z-index:                                          1;
+    /* Til at fjerne skærmkanter*/
+    margin:                                           0;
+    /* fjerner visuel scroll både ved X & Y-aksen*/
+    overflow-x:                                  hidden;
+    overflow-y:                                  hidden;
+    position:                                  relative;
+    /*Gradient baggrund*/
+    height:                                       812px;
+    background-image: linear-gradient(#37A8AD, #E4F2F4);
+    
+     }
+
+.profilitems{
+    z-index:                                                  6;
+    display:                                               grid;
+    grid-template-columns:  0.5fr 0.2fr 2.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 50% 50% 50% 50% 50% 25% 25% 25% 25% 25%;
+}
+
+.pic{
+    margin-left:                      92px;
+    z-index:                             8;
+    grid-column-start:                   2;
+    grid-row-start:                      1;
+}
+
+.picture{
+    z-index:                             8;
+    display:                          grid;
+    grid-template-columns:     1fr 1fr 1fr;
+    grid-template-rows:            60% 50%;
+}
+ 
+
+.profilgrid{
+    z-index:                                        4;
+    display:                                     grid;
+    grid-template-columns:                1fr 2fr 1fr;
+    grid-template-rows: 20% 10% 10% 10% 5% 5% 20% 20%;
+    }
+
+.box{
+    z-index:                      5;
+    grid-column-start:            2;
+    grid-row-start:               2;
+}
+
+.navn{
+    margin-left:               98px;
+    margin-top:                20px;
+    z-index:                      8;
+    font-family:       'Montserrat';
+    font-style:              normal;
+    font-weight:                500;
+    font-size:                  110%;
+    color:                  #022e42;
+    grid-column-start:            2;
+    grid-row-start:               2;
+}
+.mail{
+    
+    margin-left:               75px;
+    z-index:                      8;
+    font-family: 'Montserrat-light';
+    font-style:              normal;
+    font-weight:                300;
+    font-size:                 100%;
+    color:                  #022e42;
+    grid-column-start:            2;
+    grid-row-start:               3;
+}
+
+.oply{
+    
+    z-index:                            7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:                      500;
+    font-size:                       110%;
+    color:                        #022e42;
+    grid-column-start:                  3;
+    grid-row-start:                     7;
+}
+
+.oplyknap{
+    margin-top:                      15px;
+    z-index:                            7;
+    grid-column-start:                  5;
+    grid-row-start:                     7;
+}
+
+.kode{
+    z-index:                            7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:                      500;
+    font-size:                       110%;
+    color:                        #022e42;
+    grid-column-start:                  3;
+    grid-row-start:                     8;
+}
+
+.kodeknap{
+    margin-top:                      15px;
+    z-index:                            7;
+    grid-column-start:                  5;
+    grid-row-start:                     8;
+}
+
+.slet{
+    
+    z-index:                            7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:                      500;
+    font-size:                       110%;
+    color:                        #FA7268;
+    grid-column-start:                  3;
+    grid-row-start:                     9;
+}
+
+.sletknap{
+    margin-top:                      15px;
+    z-index:                            7;
+    grid-column-start:                  5;
+    grid-row-start:                     9;
+}
 
 .grid-container1 {
-  z-index: 1;
-  margin: 0;
-  width: 100%;
-  /*Det er for at den ikke scroller med resten, men forbliver på sin plads*/
-  position:fixed;
-    
-  /* Dette er for at bestemme at den skal ligge i bunden*/
-  bottom:0;
-  /*Grid opsætnings deffinitation*/
-  display: grid;
-  /*Denne funktion gør således at grid selv bestemmer str. for at alle er lige store*/
-  grid-template-columns: 25% 25% 25% 25%;
-  /*Baggrunds farve på boksene*/
-  background-color: #f7f8f9;
-  /*Dette giver en kant på boksene, så de ikke ligger helt i bunden*/
-  padding: 10px;
+    z-index:                            2;
+    margin:                             0;
+    width:                           100%;
+    /*Det er for at den ikke scroller med resten, men forbliver på sin plads*/
+    position:                       fixed;
+    /* Dette er for at bestemme at den skal ligge i bunden*/
+    bottom:                             0;
+    /*Grid opsætnings deffinitation*/
+    display:                         grid;
+    /*Denne funktion gør således at grid selv bestemmer str. for at alle er lige store*/
+    grid-template-columns:25% 25% 25% 25%;
+    /*Baggrunds farve på boksene*/
+    background-color:             #f7f8f9;
+    /*Dette giver en kant på boksene, så de ikke ligger helt i bunden*/
+    padding:                         10px;
 }
 
 .grid-item1/*deffination af alle grid bokse*/ {
-  /*Dette er for at få dem længere væk fra hindanden*/
-  padding: 5px;
-  /* Dette er for at ikonerne er i midten af boksene*/
-  align-content: center;
+    z-index:                            3;
+    /*Dette er for at få dem længere væk fra hindanden*/
+    padding:                          5px;
+    /* Dette er for at ikonerne er i midten af boksene*/
+    align-content:                 center;
 }
 
 /* Animation 1 upsizing af icon*/
 .scale-up-bottom {
     /* Starts funktion på upscaling af ikonet*/
 	-webkit-animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation:         scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 @-webkit-keyframes scale-up-bottom {
   0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    -webkit-transform:      scale(0.5);
+            transform:      scale(0.5);
     -webkit-transform-origin: 50% 100%;
             transform-origin: 50% 100%;
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    -webkit-transform:        scale(1);
+            transform:        scale(1);
     -webkit-transform-origin: 50% 100%;
             transform-origin: 50% 100%;
   }
 }
 @keyframes scale-up-bottom {
   0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    -webkit-transform:      scale(0.5);
+            transform:      scale(0.5);
     -webkit-transform-origin: 50% 100%;
             transform-origin: 50% 100%;
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    -webkit-transform:        scale(1);
+            transform:        scale(1);
     -webkit-transform-origin: 50% 100%;
             transform-origin: 50% 100%;
   }
@@ -77,8 +193,8 @@
 	        animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; }
 @-webkit-keyframes scale-down-center {
   0% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    -webkit-transform:   scale(1);
+            transform:   scale(1);
   }
   100% {
     -webkit-transform: scale(0.6);
@@ -87,10 +203,10 @@
 }
 @keyframes scale-down-center {
   0% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    -webkit-transform:   scale(1);
+            transform:   scale(1);
   }
   100% {
     -webkit-transform: scale(0.6);
             transform: scale(0.6);
-  }       
+  }    
