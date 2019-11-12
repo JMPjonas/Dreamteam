@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="da">
 <head>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,30 +26,66 @@
       </div>
     
        <br>
+<form name="formular" method="post" onsubmit="return validerform()">
     
-     <div class="overlay2">
-<form>
-   <div class="field-set">
-         <input class="form-input" id="navn" type="text" placeholder=" Navn" required>
-     <br><br>
-      <input class="form-input" type="email" placeholder=" E-mailadresse"  name=" E-mailadresse" required>
-       <br><br>
-       <input class="form-input" id="telefonnummer" type="text" placeholder=" Telefonnummer " required>
-     <br><br>
-      <input class="form-input" type="password" placeholder=" Adgangskode"  name="password" required>
-       <br><br>
-       <input class="form-input" type="password" placeholder=" Gentag adgangskode"  name="password" required>
-<br>
-       <br><br>
-
-       <label class="checkbox">
-           <input type="checkbox" value="vilkår og betingelser" name="Vilkår og betingelser"> Ved brug af Multikey bekræfter du, at du er bekendt med vilkårene og betingelserne for vores service og accepterer disse. </label>
-       
-      <button onclick="location.href='key.html'" > Log In </button>
-   </div>
-  
-</form>
-</div>
+    <input class="form-input" id="navn" placeholder=" Navn"  name=" navn">    
+    <span id="">*</span><br><br>
+    
+    <input class="form-input" id="email" placeholder=" E-mailadresse"  name="email">
+    <span id="">*</span><br><br>
+    
+    <input class="form-input" id="telefonnummer" placeholder=" Telefonnummer"  name="telefonnummer">
+    <span id="">*</span><br><br>
+    
+    <input class="form-input" id="password1" placeholder=" Adgangskode"  name="password">
+    <span id="">*</span><br><br>
+    
+    <input class="form-input" id="password2" placeholder=" Gentag adgangskode"  name="password">
+    <span id="">*</span><br><br>
+    
+    <button onclick="location.href='key.html'" type="submit" class="btn"> Opret mig</button>
+    
+    
+    </form>
+    
+    <script type="text/javascript">
+    
+    function validerform () {
+        
+        if (document.formular.navn.value == "") {
+            alert ("Dette felt er påkrævet");
+            return false;
+            
+        } 
+            
+        if (document.formular.email.value == "") {
+            alert ("Dette felt er påkrævet");
+            return false; 
+        }
+            
+        if (document.formular.telefonnummer.value == "") {
+            alert ("Dette felt er påkrævet");
+            return false;
+        }
+        
+        if (document.formular.password1.value == "") {
+            alert ("Dette felt er påkrævet");
+            return false;
+        }
+        
+        if (document.formular.password2.value == "") {
+            alert ("Dette felt er påkrævet");
+            return false;
+        }
+           
+        if (document.formular.navn.value != "" && document.formular.email.value != "" && document.formular.telefonnummer.value != "" && document.formular.password.value != ""){
+    
+            return true;
+        }
+    
+}
+    
+    </script>
 
 </body>
 </html>
