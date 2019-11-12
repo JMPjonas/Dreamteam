@@ -1,4 +1,3 @@
-/* Bottom Navbar og styling*/
 .ikkerul {
       /* Til at fjerne skærmkanter*/
       margin:0;
@@ -10,6 +9,7 @@
       height: 812px;
       background-image: linear-gradient(#37A8AD, #E4F2F4);
      }
+
 a {
   text-decoration: none;
   display: inline-block;
@@ -25,7 +25,7 @@ a {
   height: 160px; 
   width: 160px;
   margin-left:30%;
-    margin-top: -2%; 
+  margin-top: -2%; 
 }
 
 .velkommen
@@ -49,35 +49,31 @@ a {
     grid-column-start: 2; 
     grid-row-start: 3;
     margin-top: -5%; 
-     margin-left: 15%;
+    margin-left: 15%;
 }
 
 form {
-    height: auto;
-    border-radius: 80px; 
+  height: auto;
+  border-radius: 80px; 
 }
 
 .input-item {
-    background: #fff;
-    color: #333;
+  background: white;
+  color: #333;
 }
 
-input[class="form-input"]{
-    width: 275px; 
-    height: 60px;
-  
-    border-radius: 29px;
-    
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    font-weight: 300; 
-  
-    outline: none;
-    border: none;
-    transition: 0.2s linear;
-    
-    margin-left: 15%;
+input[type=text],input[type=password]{
+  width: 275px; 
+  height: 60px;
+  border-radius: 29px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: 300; 
+  outline: none;
+  border: none;
+  transition: 0.2s linear;
+  margin-left: 15%;
 }
 
 .forgot-pass{
@@ -89,8 +85,8 @@ input[class="form-input"]{
     font-family: 'montserrat'; 
 }
 
-button {
-    color: White;
+input[type=button]{
+color: white;
   
     width: 275px;
     height: 60px;
@@ -110,10 +106,3 @@ button {
     font-weight: 500; 
     margin-left: 15%;
 }
-
-button:hover {
-    animation: ani9 0.4s ease-in-out infinite alternate;
-}
-@keyframes ani9 {
-        transform: translateY(3px);}
-    

@@ -8,7 +8,8 @@
     <title>Login</title>
 </head>
 <body class="ikkerul">
-<a href="#" onclick="location.href='forside.html'" class="previous round">&#8249;</a>
+    
+  <a href="#" onclick="location.href='forside.html'" class="previous round">&#8249;</a>
 
 
     <div class="loginlogo">
@@ -23,24 +24,21 @@
       <p>Venligst indtast dine login-oplysninger </p>
       </div>
     
-    <br>
-   <div class="inner-wrap front-face"> 
-     <div class="overlay">
-<form>
-         <input class="form-input" id="txt-input" type="text" placeholder=" E-mailadresse" required>
+    <br>  
+ <form>
+    <!--E-mailadresse-->
+     <input type="text" name="username" id="username" placeholder=" E-mailadresse"/>
      <br>
-       <br>
-      <input class="form-input" type="password" placeholder=" Adgangskode"  name="Adgangskode" required>
-
-       <a href="#" onclick="location.href='glemt.html'" class="forgot-pass">Glemt adgangskode?</a>
-<br>
-       <br><br><br>
-       <br>
-      <button onclick="location.href='key.html'" class="log-in"> Log In </button>
-  
-</form>
-</div>
-    </div>
-    
+     <br>
+    <!--Password-->
+    <input type="password" name="password" id="password" placeholder=" Adgangskode"  name="Adgangskode"/>
+       
+    <a href="#" onclick="location.href='glemt.html'" class="forgot-pass">Glemt adgangskode?</a>
+     <br>
+     <br><br><br>
+     <br>
+    <!--Button-->
+    <input type="button" value="Login" id="submit" onclick="validate()"/>
+   </form>
 </body>
 </html>
