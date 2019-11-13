@@ -106,3 +106,8 @@ color: white;
     font-weight: 500; 
     margin-left: 15%;
 }
+
+.logindforside{
+ grid-column-start: 2;
+ grid-row-start: 7;
+ }
