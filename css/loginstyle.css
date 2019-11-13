@@ -10,13 +10,12 @@
       height: 812px;
       background-image: linear-gradient(#37A8AD, #E4F2F4);
      }
-a {
-  text-decoration: none;
-  display: inline-block;
+
+.back {
+margin-top: 10px;
   padding: 8px 16px;
-    font-size: 60px;
-    color: white; 
-    
+    font-size: 20px;
+    color: white;    
 }
 
 .loginlogo{
@@ -44,7 +43,7 @@ a {
 .oplysningerlogin{
   font-weight: 300; 
     font-family: 'montserrat';
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300; 
     grid-column-start: 2; 
     grid-row-start: 3;
@@ -64,7 +63,8 @@ form {
 
 input[class="form-input"]{
     width: 275px; 
-    height: 60px;
+    height: 43px;
+    opacity: 0.7; 
   
     border-radius: 29px;
     
@@ -93,7 +93,7 @@ button {
     color: White;
   
     width: 275px;
-    height: 60px;
+    height: 55px;
   
     background: #37A8AD;
     border-radius: 29px;
@@ -105,15 +105,11 @@ button {
     text-align: center;
     transition: all 0.2s linear;
     
-    font-size: 21px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500; 
     margin-left: 15%;
 }
 
-button:hover {
-    animation: ani9 0.4s ease-in-out infinite alternate;
-}
-@keyframes ani9 {
-        transform: translateY(3px);}
+
     
