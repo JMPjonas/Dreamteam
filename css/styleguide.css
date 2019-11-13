@@ -166,26 +166,16 @@ li a:hover:not(.active) {
   color: white;
 }
 
-/*
-.knappegrid {
-    display: grid;
-    grid-template-columns: 25% 25% 10% 25% 15%;
-    grid-template-rows: 50% 50% 50% 100%;
-*/
-/*
-        100% 70% 50% 100% 50% 80%;
-    
-*/
 .grid2{
 display: grid;
-    grid-template-columns: 25% 10% 20% 25%;
-    grid-template-rows: 50% 50% 50% 100%;
+    grid-template-columns: 25% 20% 5% 20%;
+    grid-template-rows: 20% 15% 20% 80% 40% 80%;
     grid-gap: 1em;
 }
 
 .logindforside{
 grid-column-start: 2;
-grid-row-start: 4;
+grid-row-start: 3;
  }
 
 .btnlogindforside{
@@ -193,59 +183,77 @@ grid-row-start: 4;
     font-family; 'montserrat'; 
     font-weight: 500; 
     font-size: 20px;
-    color: white;
+    color: #ffffff;
     background-color: #37A8AD;
     border: none;
     border-radius: 80px;
-/*
     width: 100%;
-    height: 180%;
+    height: 100%;
         
-*/
-*/
+
 }
 
 .opretbrugerforside{
- grid-column-start: 2;
+ grid-column-start: 4;
  grid-row-start: 3;
 }
 
 .btnopretbrugerforside{
-    font-family: 'montserrat';
+    font-family; 'montserrat'; 
     font-weight: 500; 
     font-size: 20px;
     color: ##022E42;
     background-color: #ffff;
     border: none;
     border-radius: 80px;
-/*
     width: 100%;
-    height: 120%;
-   
-        
-*/
+    height: 100%;
+    
 }
 
-/*
-.opretbrugerforside{
+.textarea1{
+ margin-left: 120px;
  grid-column-start: 2;
- grid-row-start: 2;
+ grid-row-start: 4;
+ width: 150%;
+background-color: #f7f8f9;
+border-color: lightgray;
+border-radius: 1%;
+font-family: 'montserrat';
+font-size: 12px;
 }
 
-.btnopretbrugerforside{
-    font-family: 'montserrat';
-    font-weight: 500; 
-    font-size: 15px;
-    color: ##022E42;
-    background-color: #ffff;
-    border: none;
-    border-radius: 80px;
+
+.add {
+  grid-column-start: 2;
+ grid-row-start: 5;
    width: 100%;
-    height: 110%;
+    height: 100%;
+margin-left: 100px;
+    border: none
     
-*/
-    
-        
 }
-        
+
+.back {
+    z-index: 5;
+    grid-column-start: 4;
+    grid-row-start: 5;
+  padding: 8px 16px;
+    font-size: 20px;
+    color: white; 
+    margin-left: 125px;
+}
+    
+.textarea2{
+ margin-left: 120px;
+ grid-column-start: 2;
+ grid-row-start: 6;
+ width: 150%;
+background-color: #f7f8f9;
+border-color: lightgray;
+border-radius: 1%;
+font-family: 'montserrat';
+font-size: 12px;
+}
+
 
