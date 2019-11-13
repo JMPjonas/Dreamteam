@@ -20,7 +20,10 @@ grid-column-start: 3;
 grid-row-start: 2;
 width:100px;
 height:100px;
-background-color: #f2545b;
+background-color: #fa7268; 
+border-style: solid;
+border-color: darkgray;
+border
 }
 
 .farvetekst1{
@@ -39,7 +42,9 @@ grid-column-start: 5;
 grid-row-start: 2;
 width:100px;
 height:100px;
-background-color: #105970;
+background-color:#022e42; 
+border-style: solid;
+border-color: darkgray;
 }
 
 .farvetekst2{
@@ -57,7 +62,9 @@ grid-column-start: 7;
 grid-row-start: 2;
 width:100px;
 height:100px;
-background-color: #2a7a97;
+background-color: #37a8ad;
+border-style: solid;
+border-color: darkgray;
 }
 
 .farvetekst3{
@@ -67,7 +74,7 @@ grid-column-start: 7;
 grid-row-start: 3;
 font-family: 'montserrat';
 font-size: 15px;
-margin-right: 25px;
+margin-right: 23px;
 font-weight: 150;
 }
 
@@ -76,7 +83,9 @@ grid-column-start: 9;
 grid-row-start: 2;
 width:100px;
 height:100px;
-background-color: #92c8c2;
+background-color: #f7f8f9;
+border-style: solid;
+border-color: darkgray;
 }
 
 .farvetekst4{
@@ -86,7 +95,7 @@ grid-column-start: 9;
 grid-row-start: 3;
 font-family: 'montserrat';
 font-size: 15px;
-margin-right: 25px;
+margin-right: 23px;
 font-weight: 150;
 }
 
@@ -96,6 +105,8 @@ grid-row-start: 2;
 width:100px;
 height:100px;
 background-color: #ffffff;
+border-style: solid;
+border-color: darkgray;
 }
 
 .farvetekst5{
@@ -107,6 +118,7 @@ font-family: 'montserrat';
 font-size: 15px;
 margin-right: 25px;
 font-weight: 150;
+
 }
 
 
