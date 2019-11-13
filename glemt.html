@@ -9,28 +9,67 @@
     <title>Glemt Kodeord</title>
 </head>
 <body class="ikkerul">
-
-<a href="#" onclick="location.href='forside.html'" class="previous round">&#8249;</a>
-
-    <div class="loginlogo">
-    <img src="img/logo/sprutte_Tegnebr%C3%A6t%201.svg">
-         </div>
-
-<div class="Glemtkodeord">
-      <p>Nulstil adgangskode</p>
-      </div>
     
-      <div class="Kontaktinformation">
-      <p>Venligst indtast den e-mail 
-          <br>
-          du har brugt til at oprette din profil med,  
-          <br>
-          så sender vi et link du kan nulstille din adgangskode med. </p>
-      </div>
+    <form role="form" method="post">
+    <div class="box box-primary">
+        <div class="box-header">
+            <h2 class="page-header"><i class="fa fa-lock"></i> Skift adgangskode</h2>
+            <div class="pull-right">
+                <button type="button" name="Submit" value="Save" class="btn btn-danger"><i class="livicon" data-n="pen" data-s="16" data-c="#fff" data-hc="0" ></i> Gem</button>
+                <button type="reset" name="Reset" value="Clear" class="btn btn-primary"><i class="livicon" data-n="trash" data-s="16" data-c="#fff" data-hc="0"></i> Slet</button>
+            </div>
+        </div>
+        <!-- /.box-header -->
 
-    <input class="form-input" type="email" placeholder=" E-mailadresse"  name=" E-mailadresse" required>
+        <div class="box-body">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <label>Gammel adgangskode</label>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <i class="fa fa-lock"></i>
+                        </div>
+                        <input class="form-control" id="oldPassword" name="oldPassword" value="" placeholder="Skriv din gamle adgangskode" type="password">
+                    </div>
+                </div>
+                <!-- /.input group -->
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <label>Ny adgangskode</label>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <i class="fa fa-lock"></i>
+                        </div>
+                        <input class="form-control" id="newPassword" name="newPassword" value="" placeholder="Skriv din gamle adgangskode" type="password">
+                    </div>
+                </div>
+                <!-- /.input group -->
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <label>Gentag adgangskode</label>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <i class="fa fa-lock"></i>
+                        </div>
+                        <input class="form-control" id="confirmPassword" name="confirmPassword" value="" placeholder="Gentag ny adgangskode" type="password">
+                    </div>
+                </div>
+                <!-- /.input group -->
+            </div>
+        </div>
+        </div>
+</form>
 
-    <button onclick="location.href='login.html'" class="tilbagelogind"> Send </button>
 
 </body>
 </html>

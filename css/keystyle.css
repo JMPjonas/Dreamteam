@@ -29,7 +29,6 @@
 .add{  
     grid-column-start: 2;
     grid-row-start:1;
-    border-radius: 20px;
     padding: 10px; 
     margin-top: 25%;
     margin-left: -6%
@@ -45,13 +44,13 @@ h1{
 .navn{
     font-family: 'montserrat';
     color: #022E42;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .kodeord{
      font-family: 'montserrat';
     color: #022E42;
-    font-size: 15px;
+    font-size: 18px;
 }
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
@@ -63,7 +62,7 @@ h1{
 .form-popup {
   display: none;
   position: fixed;
-  z-index: 9;
+  z-index: 5;
 }
 
 /* Add styles to the form container */
@@ -91,6 +90,7 @@ h1{
 
 /* Set a style for the tilføj nøgle button */
 .form-container .btn {
+  z-index: 10;
   background-color: #37A8AD;
   font-family: 'montserrat'
   color: white;
@@ -98,12 +98,13 @@ h1{
   border: none;
   cursor: pointer;
   width: 100%;
-  margin-bottom:10px;
+  margin-bottom: 10px;
+  
 }
 
 /* Add a background color to the cancel button */
 .form-container .cancel {
-  background-color: #FA7268;
+ background-color: #FA7268;
 }
 
 /* Add some hover effects to buttons */
