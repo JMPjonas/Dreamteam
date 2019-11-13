@@ -17,7 +17,7 @@
 .forsidegrid{
     display: grid;
     grid-template-columns: 5% 80% 40%;
-    grid-template-rows: 2% 2% 2% 2% 15% 70% 10% 10%; 
+    grid-template-rows: 2% 4% 2% 2% 15% 70% 10% 10%; 
     grid-gap: 1em;
 }   
 
