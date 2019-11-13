@@ -17,7 +17,7 @@
     z-index:                                                  6;
     display:                                               grid;
     grid-template-columns:  0.5fr 0.2fr 2.5fr 0.5fr 0.5fr 0.5fr;
-    grid-template-rows: 50% 50% 50% 50% 50% 25% 25% 25% 25% 25%;
+    grid-template-rows: 45% 29% 50% 50% 30% 5% 25% 25% 29% 18%;
 }
 
 .pic{
@@ -39,7 +39,7 @@
     z-index:                                        4;
     display:                                     grid;
     grid-template-columns:                1fr 2fr 1fr;
-    grid-template-rows: 20% 10% 10% 10% 5% 5% 20% 20%;
+    grid-template-rows: 12% 10% 20% 25% 30%;
     }
 
 .box{
@@ -50,7 +50,7 @@
 
 .navn{
     margin-left:               98px;
-    margin-top:                20px;
+    margin-top:                60px;
     z-index:                      8;
     font-family:       'Montserrat';
     font-style:              normal;
@@ -61,7 +61,7 @@
     grid-row-start:               2;
 }
 .mail{
-    
+    margin-top: 25px;
     margin-left:               75px;
     z-index:                      8;
     font-family: 'Montserrat-light';
@@ -125,6 +125,29 @@
     grid-column-start:                  5;
     grid-row-start:                     9;
 }
+
+
+.knappen{
+    margin-top: 5px;
+    margin-left: 50px;
+ z-index:                            7;
+    grid-column-start:                  3;
+    grid-row-start:                     10;
+ }
+
+.knapknap{
+    font-family: 'montserrat';
+    font-weight: 500; 
+    font-size: 20px;
+    color: white;
+    background-color: #37A8AD;
+    border: none;
+    border-radius: 80px;
+    width: 100%;
+    height: 120%
+        
+}
+
 
 .grid-container1 {
     z-index:                            2;
