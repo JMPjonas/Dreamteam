@@ -29,6 +29,7 @@
 .add{  
     grid-column-start: 2;
     grid-row-start:1;
+    border-radius: 20px;
     padding: 10px; 
     margin-top: 25%;
     margin-left: -6%
@@ -44,13 +45,13 @@ h1{
 .navn{
     font-family: 'montserrat';
     color: #022E42;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .kodeord{
      font-family: 'montserrat';
     color: #022E42;
-    font-size: 18px;
+    font-size: 15px;
 }
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
@@ -62,7 +63,7 @@ h1{
 .form-popup {
   display: none;
   position: fixed;
-  z-index: 5;
+  z-index: 9;
 }
 
 /* Add styles to the form container */
@@ -90,7 +91,6 @@ h1{
 
 /* Set a style for the tilføj nøgle button */
 .form-container .btn {
-  z-index: 10;
   background-color: #37A8AD;
   font-family: 'montserrat'
   color: white;
@@ -98,13 +98,12 @@ h1{
   border: none;
   cursor: pointer;
   width: 100%;
-  margin-bottom: 10px;
-  
+  margin-bottom:10px;
 }
 
 /* Add a background color to the cancel button */
 .form-container .cancel {
- background-color: #FA7268;
+  background-color: #FA7268;
 }
 
 /* Add some hover effects to buttons */
@@ -118,9 +117,21 @@ h1{
     font-size: 15px;
     color: #ffff;
 }
+
+.home{
+     grid-column-start:1;
+    grid-row-start: 4;
+    border-radius: 20px;
+    padding: 10px; 
+    margin-left: -60%;
+    border: 50%;
+    margin-left: 2%;
+    
+}
+
 .fitnessworld{
     grid-column-start:1;
-    grid-row-start: 4;
+    grid-row-start: 5;
     border-radius: 20px;
     padding: 10px; 
     margin-left: -60%;
@@ -129,7 +140,7 @@ h1{
 
 .ucl{
     grid-column-start: 1;
-    grid-row-start: 5;
+    grid-row-start: 6;
      border-radius: 20px;
     padding: 10px; 
     margin-left: -50%;
@@ -138,7 +149,7 @@ h1{
 
 .rejsekort{
     grid-column-start: 1;
-    grid-row-start: 6;
+    grid-row-start: 7;
      border-radius: 20px;
     padding: 10px; 
     margin-left: -50%;
@@ -236,4 +247,3 @@ img {
     -webkit-transform: scale(0.6);
             transform: scale(0.6);
   }  
-

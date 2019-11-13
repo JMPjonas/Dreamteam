@@ -39,7 +39,9 @@
     margin-left: 3%;
     
 }
-
+img {
+  border-radius: 5%;
+}
 .infoitems{
         z-index: 6;
         display: grid;
@@ -55,7 +57,7 @@
     color: #022e42;
     font-family: Montserrat;
     font-weight: 600;
-    font-size: 120%;
+    font-size: 200%;
     grid-column-start: 3;
     grid-row-start: 1;
 }
@@ -66,8 +68,8 @@
     margin-left: 15%;
     color: #022e42;
     font-family: Montserrat;
-    font-weight: 600;
-    font-size: 55%;
+    font-weight: 500;
+    font-size: 110%;
     grid-column-start: 3;
     grid-row-start: 1;
 }
@@ -75,7 +77,7 @@
     z-index: 7;
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 80%;
+    font-size: 110%;
     color: #022e42;
     grid-column-start: 3;
     grid-row-start: 1;
@@ -85,23 +87,23 @@
 .redigerknap{
     margin-top: 15px;
     z-index: 7;
-    margin-top: 60%;
+    margin-top: 110%;
     grid-column-start: 5;
     grid-row-start: 1;
 }
 
-.del{
-    z-index: 7;
+.delnoegle{
+     z-index: 7;
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 80%;
+    font-size: 110%;
     color: #022e42;
     grid-column-start: 3;
     grid-row-start: 3;
     margin-top: -4%;
     margin-left: -20%
- 
 }
+    
 
 .delknap{
     margin-top: 15px;
@@ -115,7 +117,7 @@
     z-index: 7;
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 80%;
+    font-size: 110%;
     color: #022e42;
     grid-column-start: 3;
     grid-row-start: 4;

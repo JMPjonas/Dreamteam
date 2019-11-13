@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+
+.main{;
+margin:0;
+background-color:#f7f8f9; 
+font-family: 'montserrat';
+font-weight: 150;
+    overflow-x: hidden;
+}
+
+.main2{;
+margin:0;
+background-color:#f7f8f9; 
+font-family: 'montserrat';
+font-weight: 150;
+overflow-x: hidden;
+}
+
+
+
+.styleguidegrid{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 26% 4% 9% 4% 9% 4% 9% 4% 9%4% 9%;
+    grid-template-rows: 100% 70% 20% 100% 50%;
+}
+
+
+
+.farvebox1{
+grid-column-start: 3;
+grid-row-start: 2;
+width:100px;
+height:100px;
+background-color: #fa7268; 
+border-style: solid;
+border-color: darkgray;
+border
+}
+
+.farvetekst1{
+font-size: 10px;
+margin-right: 25px;
+grid-column-start: 3;
+grid-row-start: 3;
+font-family: 'montserrat';
+font-size: 15px;
+text-align: center;
+font-weight: 150;
+}
+
+.farvebox2{
+grid-column-start: 5;
+grid-row-start: 2;
+width:100px;
+height:100px;
+background-color:#022e42; 
+border-style: solid;
+border-color: darkgray;
+}
+
+.farvetekst2{
+font-size: 10px;
+text-align: center;
+grid-column-start: 5;
+grid-row-start: 3;
+font-family: 'montserrat';
+font-size: 15px;
+font-weight: 150;
+margin-right: 25px;
+}
+.farvebox3{
+grid-column-start: 7;
+grid-row-start: 2;
+width:100px;
+height:100px;
+background-color: #37a8ad;
+border-style: solid;
+border-color: darkgray;
+}
+
+.farvetekst3{
+font-size: 10px;
+text-align: center;
+grid-column-start: 7;
+grid-row-start: 3;
+font-family: 'montserrat';
+font-size: 15px;
+margin-right: 23px;
+font-weight: 150;
+}
+
+.farvebox4{
+grid-column-start: 9;
+grid-row-start: 2;
+width:100px;
+height:100px;
+background-color: #f7f8f9;
+border-style: solid;
+border-color: darkgray;
+}
+
+.farvetekst4{
+font-size: 10px;
+text-align-last: center;
+grid-column-start: 9;
+grid-row-start: 3;
+font-family: 'montserrat';
+font-size: 15px;
+margin-right: 23px;
+font-weight: 150;
+}
+
+.farvebox5{
+grid-column-start: 11;
+grid-row-start: 2;
+width:100px;
+height:100px;
+background-color: #ffffff;
+border-style: solid;
+border-color: darkgray;
+}
+
+.farvetekst5{
+font-size: 10px;
+text-align-last: center;
+grid-column-start: 11;
+grid-row-start: 3;
+font-family: 'montserrat';
+font-size: 15px;
+margin-right: 25px;
+font-weight: 150;
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 30px;
+    margin-left: 30px;
+  font-size: 20px;
+font-weight: 150;
+  padding: 0;
+  width: 15%; /*bredden på bjælken*/
+  background-color: #f7f8f9; /*baggrunds farve*/
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  
+}
+li a {
+  display: block;
+  color: #105970; /*tekst farve*/
+  padding: 8px 16px;
+  text-decoration: none;
+ margin-bottom: 20px;
+margin-top: 20px;
+}
+li a.active {
+  background-color: #2a7a97; /* Siden man er på indikering*/
+  color: white;
+
+}
+li a:hover:not(.active) {
+  background-color: #105970;
+  color: white;
+}
+
+/*
+.knappegrid {
+    display: grid;
+    grid-template-columns: 25% 25% 10% 25% 15%;
+    grid-template-rows: 50% 50% 50% 100%;
+*/
+/*
+        100% 70% 50% 100% 50% 80%;
+    
+*/
+.grid2{
+display: grid;
+    grid-template-columns: 25% 10% 20% 25%;
+    grid-template-rows: 50% 50% 50% 100%;
+    grid-gap: 1em;
+}
+
+.logindforside{
+grid-column-start: 2;
+grid-row-start: 4;
+ }
+
+.btnlogindforside{
+    grid-column-start: 3;
+    font-family; 'montserrat'; 
+    font-weight: 500; 
+    font-size: 20px;
+    color: white;
+    background-color: #37A8AD;
+    border: none;
+    border-radius: 80px;
+/*
+    width: 100%;
+    height: 180%;
+        
+*/
+*/
+}
+
+.opretbrugerforside{
+ grid-column-start: 2;
+ grid-row-start: 3;
+}
+
+.btnopretbrugerforside{
+    font-family: 'montserrat';
+    font-weight: 500; 
+    font-size: 20px;
+    color: ##022E42;
+    background-color: #ffff;
+    border: none;
+    border-radius: 80px;
+/*
+    width: 100%;
+    height: 120%;
+   
+        
+*/
+}
+
+/*
+.opretbrugerforside{
+ grid-column-start: 2;
+ grid-row-start: 2;
+}
+
+.btnopretbrugerforside{
+    font-family: 'montserrat';
+    font-weight: 500; 
+    font-size: 15px;
+    color: ##022E42;
+    background-color: #ffff;
+    border: none;
+    border-radius: 80px;
+   width: 100%;
+    height: 110%;
+    
+*/
+    
+        
+}
+        
+
