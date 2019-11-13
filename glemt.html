@@ -9,8 +9,9 @@
     <title>Glemt Kodeord</title>
 </head>
 <body class="ikkerul">
-
-<a href="#" onclick="location.href='forside.html'" class="previous round">&#8249;</a>
+ <div class="back">
+    <a href="#" onclick="location.href='forside.html'"><img src="img/back.png" width="20px" height="30px"></a>
+  </div>
 
     <div class="loginlogo">
     <img src="img/logo/sprutte_Tegnebr%C3%A6t%201.svg">
@@ -20,23 +21,19 @@
       <p>Nulstil adgangskode</p>
       </div>
     
-
       <div class="Kontaktinformation">
       <p>Venligst indtast den e-mail 
           <br>
-          du har brugt til at oprette din profil med,  
+          du har brugt til at oprette din profil
           <br>
-          så sender vi et link du kan nulstille din adgangskode med. </p>
+          med, så sender vi et link du kan 
+          <br>
+          nulstille din adgangskode med. </p>
       </div>
-
+<br><br>
     <input class="form-input" type="email" placeholder=" E-mailadresse"  name=" E-mailadresse" required>
-
-    <div class="back">
-    <a href="#" onclick="location.href='forside.html'"><img src="img/back.png" width="20px" height="30px"></a>
-  </div>
     
-
-    <button onclick="location.href='login.html'" class="tilbagelogind"> Send </button>
-
+    <input type="submit" onclick="location.href='login.html'" value="Send" class="button" name="register">
+    
 </body>
 </html>
