@@ -28,13 +28,13 @@ function closeForm() {
          }
          else
           {
-            alert("Confirm password is not same as you new password.");
+            alert("Confirm password is not same as your new password.");
             return false;
           }
       }
       else
      {
-      alert(" This Is Your Old Password,Please Provide A New Password");
+      alert(" This Is Your Old Password, Please Provide A New Password");
       return false;
      }
     }
