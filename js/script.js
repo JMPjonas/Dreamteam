@@ -1,5 +1,3 @@
-
-
 // Javascript document
 
 function openForm() {
@@ -9,5 +7,4 @@ function openForm() {
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
-
 
