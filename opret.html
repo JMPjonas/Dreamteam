@@ -1,16 +1,17 @@
 <!doctype html>
-<html lang="da">
+<html>
 <head>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="js/script.js"></script>
+    <script type="text/javascript" src="js.js" defer></script>
     <link rel="stylesheet" href="css/opretstyle.css">
     <meta charset="UTF-8">
     <title>Opret bruger</title>
 </head>
 <body class="ikkerul">
-<a href="#" onclick="location.href='forside.html'" class="previous round">&#8249;</a>
-    
+<div class="back">
+    <a href="#" onclick="location.href='forside.html'"><img src="img/back.png" width="20px" height="30px"></a>
+  </div>    
     <div class="loginlogo">
       <img src="img/logo/sprutte_Tegnebr%C3%A6t%201.svg">
     </div>
@@ -20,72 +21,54 @@
       </div>
     
       <div class="oplysningeropret">
-      <p>Venligst indtast dine oplysninger, 
-       <br>
-          og vi laver en profil til dig. </p>
+      <p>Venligst indtast dine 
+    <br>    oplysninger, og vi laver en profil 
+        <br>  til dig. </p>
       </div>
     
-       <br>
-<form name="formular" method="post" onsubmit="return validerform()">
+
+    <div id="wrapper">
+    <form method="POST" action="key.html" onsubmit="return Validate()" name="vform">
+    <div>
+        
+        <input type="text" name="username" class="textInput" placeholder="Navn">
+            <span id="">*</span><br><br>
+        <div id="name_error" class="val_error">
+        </div> 
     
-    <input class="form-input" id="navn" placeholder=" Navn"  name=" navn">    
-    <span id="">*</span><br><br>
-    
-    <input class="form-input" id="email" placeholder=" E-mailadresse"  name="email">
-    <span id="">*</span><br><br>
-    
-    <input class="form-input" id="telefonnummer" placeholder=" Telefonnummer"  name="telefonnummer">
-    <span id="">*</span><br><br>
-    
-    <input class="form-input" id="password1" placeholder=" Adgangskode"  name="password">
-    <span id="">*</span><br><br>
-    
-    <input class="form-input" id="password2" placeholder=" Gentag adgangskode"  name="password">
-    <span id="">*</span><br><br>
-    
-    <button onclick="location.href='key.html'" type="submit" class="btn"> Opret mig</button>
-    
-    
+    <div>
+        <input type="email" name="email" class="textInput" placeholder="E-mailadresse">
+            <span id="">*</span><br><br>
+        <div id="email_error" class="val_error">
+        </div>
+
+            
+    <div>
+        <input type="password" name="password" class="textInput" placeholder="Adgangskode">
+        <span id="">*</span><br><br>
+
+        </div>
+                
+    <div>
+        <input type="password" name="password_confirmation" class="textInput" placeholder="Gentag adgangskode">
+        <span id="">*</span><br><br>
+        <div id="password_error" class="val_error">
+        </div>
+  <label class="checkbox">
+           <input type="checkbox" value="vilkår og betingelser" name="Vilkår og betingelser"> Jeg er enig i Multikeys vilkår og betingelser. <a href="#">Læs dem her</a></label>
+    <div>
+    <br>
+        <input type="submit" value="Opret bruger" class="button" name="register">
+        </div>
+        
+        </div>
+        </div>
+        </div>
+        
     </form>
+    </div>
     
-    <script type="text/javascript">
     
-    function validerform () {
-        
-        if (document.formular.navn.value == "") {
-            alert ("Dette felt er påkrævet");
-            return false;
-            
-        } 
-            
-        if (document.formular.email.value == "") {
-            alert ("Dette felt er påkrævet");
-            return false; 
-        }
-            
-        if (document.formular.telefonnummer.value == "") {
-            alert ("Dette felt er påkrævet");
-            return false;
-        }
-        
-        if (document.formular.password1.value == "") {
-            alert ("Dette felt er påkrævet");
-            return false;
-        }
-        
-        if (document.formular.password2.value == "") {
-            alert ("Dette felt er påkrævet");
-            return false;
-        }
-           
-        if (document.formular.navn.value != "" && document.formular.email.value != "" && document.formular.telefonnummer.value != "" && document.formular.password.value != ""){
-    
-            return true;
-        }
-    
-}
-    
-    </script>
 
 </body>
 </html>
