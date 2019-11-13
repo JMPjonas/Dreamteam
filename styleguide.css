@@ -8,12 +8,24 @@ font-weight: 150;
     overflow-x: hidden;
 }
 
+.main2{;
+margin:0;
+background-color:#f7f8f9; 
+font-family: 'montserrat';
+font-weight: 150;
+overflow-x: hidden;
+}
+
+
+
 .styleguidegrid{
     margin: 0;
     display: grid;
     grid-template-columns: 26% 4% 9% 4% 9% 4% 9% 4% 9%4% 9%;
     grid-template-rows: 100% 70% 20% 100% 50%;
 }
+
+
 
 .farvebox1{
 grid-column-start: 3;
@@ -153,3 +165,87 @@ li a:hover:not(.active) {
   background-color: #105970;
   color: white;
 }
+
+/*
+.knappegrid {
+    display: grid;
+    grid-template-columns: 25% 25% 10% 25% 15%;
+    grid-template-rows: 50% 50% 50% 100%;
+*/
+/*
+        100% 70% 50% 100% 50% 80%;
+    
+*/
+.grid2{
+display: grid;
+    grid-template-columns: 25% 10% 20% 25%;
+    grid-template-rows: 50% 50% 50% 100%;
+    grid-gap: 1em;
+}
+
+.logindforside{
+grid-column-start: 2;
+grid-row-start: 4;
+ }
+
+.btnlogindforside{
+    grid-column-start: 3;
+    font-family; 'montserrat'; 
+    font-weight: 500; 
+    font-size: 20px;
+    color: white;
+    background-color: #37A8AD;
+    border: none;
+    border-radius: 80px;
+/*
+    width: 100%;
+    height: 180%;
+        
+*/
+*/
+}
+
+.opretbrugerforside{
+ grid-column-start: 2;
+ grid-row-start: 3;
+}
+
+.btnopretbrugerforside{
+    font-family: 'montserrat';
+    font-weight: 500; 
+    font-size: 20px;
+    color: ##022E42;
+    background-color: #ffff;
+    border: none;
+    border-radius: 80px;
+/*
+    width: 100%;
+    height: 120%;
+   
+        
+*/
+}
+
+/*
+.opretbrugerforside{
+ grid-column-start: 2;
+ grid-row-start: 2;
+}
+
+.btnopretbrugerforside{
+    font-family: 'montserrat';
+    font-weight: 500; 
+    font-size: 15px;
+    color: ##022E42;
+    background-color: #ffff;
+    border: none;
+    border-radius: 80px;
+   width: 100%;
+    height: 110%;
+    
+*/
+    
+        
+}
+        
+
